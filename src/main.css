@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #1F1E1E !important;
+}
+
+#loginDiv {
+    text-align: center;
+    margin-top: 30vh;
+}
+#loginDiv form{
+    margin:auto;
+}
+#TodoMenu {
+    margin: 50px;
+}
+#TodoMenu Button {
+    margin-left: 25px;
+}
+
+#TodoMenu h1 {
+    color: white;
+    margin-left:25px;
+}
+#luoTikettiDiv{
+    text-align:center;
+    margin-top:15vh;
+
+}
+#luoTikettiDiv Button{
+   margin:10px;
+
+}
+.tikettiCardit {
+    width: 20rem;
+    margin: 50px;
+}
+#tikettiCarditUl{
+    display:inline-flex;
+    flex-wrap:wrap;
+
+}
+@media only screen and (max-width: 900px) {
+    #TodoMenu {
+        text-align:center;
+        margin:auto;
+    }#TodoMenu Button {
+         display:block;
+         margin:auto;
+         margin-top:20px;
+    }
+    .tikettiCardit {
+        margin-left:0px;
+    }
+    #tikettiCarditUl{
+        margin:auto;
+        margin-left:0px;
+    }
+    #luoTikettiDiv{
+        margin-left:-15px;
+    }
+     
+}
