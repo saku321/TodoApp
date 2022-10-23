@@ -1,2 +1,2 @@
 # TodoApp
-ToDo appi toteutettu Reactilla, Nodella ja Mysql databasella
+Todo appi toteutettu Reactilla, Nodella ja Mysql databasella
